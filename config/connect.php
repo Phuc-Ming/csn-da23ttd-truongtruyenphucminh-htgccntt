@@ -16,6 +16,4 @@ $conn->set_charset("utf8mb4");
 
 include_once("connect.php");
 ?>
-<?php
-// Kết nối MySQL bằng PDO (chưa viết chi tiết)
-?>
+
