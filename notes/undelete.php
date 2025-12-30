@@ -16,7 +16,7 @@
         exit();
     }
 
-    //Khôi phục ghi chú (đặt is_deleted = 0)
+    //Khôi phục ghi chú
     $sql = "UPDATE notes SET is_deleted = 0, updated_at = CURRENT_TIMESTAMP WHERE id = $note_id AND user_id = $user_id";
 
     if($conn -> query($sql)) {
