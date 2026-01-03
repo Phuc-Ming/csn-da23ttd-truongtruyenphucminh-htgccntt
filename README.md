@@ -1,4 +1,4 @@
-# Ứng dụng Ghi chú Cá nhân Trực tuyến
+# Hệ thống Ghi chú Cá nhân Trực tuyến
 Đồ án cơ sở ngành - Thiết kế hệ thống ghi chú cá nhân trực tuyến ứng dụng công nghệ web động
 ## Tính năng
 
