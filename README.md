@@ -76,8 +76,5 @@ CREATE TABLE note_history (
 - PHP
 - MySQL
 - HTML
-- CSS
-- JavaScript
-- Bootstrap
 - Bootstrap 5
 - HTML/CSS/JavaScript
