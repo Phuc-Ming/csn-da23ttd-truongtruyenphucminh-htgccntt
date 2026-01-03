@@ -75,6 +75,5 @@ CREATE TABLE note_history (
 ## Công nghệ sử dụng
 - PHP
 - MySQL
-- HTML
 - Bootstrap 5
 - HTML/CSS/JavaScript
