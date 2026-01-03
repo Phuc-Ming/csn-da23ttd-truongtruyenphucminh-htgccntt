@@ -3,9 +3,9 @@
     session_start();
 
     if (isset($_SESSION['user_id'])) {
-        header("Location: cnotes/list.php");
+        header("Location: 3notes/list.php");
     } else {
-        header("Location: bauth/login.php");
+        header("Location: 2auth/login.php");
     }
     exit();
 ?>
