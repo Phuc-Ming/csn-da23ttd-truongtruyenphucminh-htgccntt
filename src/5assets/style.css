@@ -1,0 +1,71 @@
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #f8f9fa; /* Màu nền */
+}
+
+.container{
+    max-width: 1200px;
+}
+
+.card{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1); /* Đổ bóng */
+    border: 2px solid black; /* Viền rõ ràng */
+    border-radius: 10px; /* Bo góc */
+    margin-bottom: 20px; /* Tăng khoảng cách giữa các card */
+}
+
+.card:hover {
+    border-color: #007bff;  /* Viền xanh khi hover */
+    box-shadow: 0 6px 12px rgba(0,123,255,0.25);  /* Bóng xanh */
+}
+
+.btn{
+    border-radius: 10px;
+    margin-right: 8px;  /* Khoảng cách giữa các nút */
+    margin-bottom: 5px;  /* Khoảng cách dưới nút */
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 1.0rem;
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+
+.card-header{
+    background-color: rgba(0, 0, 255, 0.77);
+    border-bottom: 2px solid black; /* Thêm viền dưới */
+}
+
+/*Styles cho phần thống kê */
+.stats-box {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.stats-box:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.stats-number {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.stats-label {
+    font-size: 0.85rem;
+    color: #6c757d;
+    letter-spacing: 0.5px;
+}
+
+.sidebar-card {
+    position: sticky;
+    top: 20px;
+}
+
